@@ -57,26 +57,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (age < 13) {
-      print("You are and done");
-    } else if (age < 18) {
-      print("so loney");
-    } else {
-      print("elegal");
+    for (int i = 0; i <= 8; i++) {
+      print(i);
     }
-
-    switch (grade) {
-      case "A":
-        print("baguss");
-        break;
-      case "B":
-        print("boleh lah");
-        break;
-      case "C":
-        print("cukup boleh");
-        break;
-    }
-
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
