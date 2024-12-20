@@ -58,6 +58,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     for (int i = 0; i <= 8; i++) {
+      if (i == 6) {
+        continue;
+      }
       print(i);
     }
     return const MaterialApp(
