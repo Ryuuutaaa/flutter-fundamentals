@@ -60,8 +60,14 @@ class MyApp extends StatelessWidget {
     print("hello world");
   }
 
+// function wiht paramether
+  void greetW(String name) {
+    print(name);
+  }
+
   @override
   Widget build(BuildContext context) {
+    greetW("rafi");
     greet();
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
