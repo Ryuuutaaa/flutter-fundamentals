@@ -57,11 +57,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    for (int i = 0; i <= 8; i++) {
-      if (i == 6) {
-        break;
-      }
-      print(i);
+    int coundDown = 5;
+
+    while (coundDown > 0) {
+      print(coundDown);
+      coundDown--;
     }
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
