@@ -65,8 +65,16 @@ class MyApp extends StatelessWidget {
     print(name);
   }
 
+// function retrun value
+
+  void add(int a, int b) {
+    int sum = a + b;
+    print(sum);
+  }
+
   @override
   Widget build(BuildContext context) {
+    add(1, 1);
     greetW("rafi");
     greet();
     return const MaterialApp(
