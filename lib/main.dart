@@ -39,15 +39,29 @@ class MyApp extends StatelessWidget {
 
   if(age < 18){
     print("so lony");
+  }else{
+    print("so lony")
   }
+
+  if(age < 13){
+    print("under age")
+  }else if(age < 18){
+    print("stander")
+  }else{
+    print("ilegal")
+  }
+
+
   */
 
   @override
   Widget build(BuildContext context) {
-    if (age > 18) {
+    if (age < 13) {
       print("You are and done");
-    } else {
+    } else if (age < 18) {
       print("so loney");
+    } else {
+      print("elegal");
     }
 
     return const MaterialApp(
