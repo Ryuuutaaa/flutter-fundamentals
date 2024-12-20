@@ -32,8 +32,18 @@ class MyApp extends StatelessWidget {
     isBegenir  : true
   */
 
+  /*
+  if(age < 18){
+    print("you are done");
+  }
+  */
+
   @override
   Widget build(BuildContext context) {
+    if (age > 18) {
+      print("You are and done");
+    }
+
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
