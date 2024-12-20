@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
   double pi = 3.14;
   bool isBeginer = true;
 
+  // basic math operations :
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
