@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   int age = 19;
   double pi = 3.14;
   bool isBeginer = true;
+  String grade = "A";
 
   /*
     BASIC MATH OPERATIONS : 
@@ -62,6 +63,18 @@ class MyApp extends StatelessWidget {
       print("so loney");
     } else {
       print("elegal");
+    }
+
+    switch (grade) {
+      case "A":
+        print("baguss");
+        break;
+      case "B":
+        print("boleh lah");
+        break;
+      case "C":
+        print("cukup boleh");
+        break;
     }
 
     return const MaterialApp(
