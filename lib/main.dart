@@ -55,14 +55,14 @@ class MyApp extends StatelessWidget {
 
   */
 
+// function
+  void greet() {
+    print("hello world");
+  }
+
   @override
   Widget build(BuildContext context) {
-    int coundDown = 5;
-
-    while (coundDown > 0) {
-      print(coundDown);
-      coundDown--;
-    }
+    greet();
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
