@@ -36,12 +36,18 @@ class MyApp extends StatelessWidget {
   if(age < 18){
     print("you are done");
   }
+
+  if(age < 18){
+    print("so lony");
+  }
   */
 
   @override
   Widget build(BuildContext context) {
     if (age > 18) {
       print("You are and done");
+    } else {
+      print("so loney");
     }
 
     return const MaterialApp(
