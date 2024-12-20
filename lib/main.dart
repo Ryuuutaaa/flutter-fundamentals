@@ -13,7 +13,19 @@ class MyApp extends StatelessWidget {
   double pi = 3.14;
   bool isBeginer = true;
 
-  // basic math operations :
+  /*
+    BASIC MATH OPERATIONS : 
+    1 + 1
+    1 - 1
+    1 * 1
+    1 / 1
+    1 % 1
+
+    COMPERATION OPERATOR : 
+    5 === 5
+    2 != 3
+    3 < 2
+  */
 
   @override
   Widget build(BuildContext context) {
