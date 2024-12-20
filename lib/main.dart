@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     for (int i = 0; i <= 8; i++) {
       if (i == 6) {
-        continue;
+        break;
       }
       print(i);
     }
