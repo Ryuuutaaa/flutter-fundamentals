@@ -25,6 +25,11 @@ class MyApp extends StatelessWidget {
     5 === 5
     2 != 3
     3 < 2
+
+
+    LOGIC OPERATOR : 
+    AND operator, return true if both sides are true
+    isBegenir  : true
   */
 
   @override
