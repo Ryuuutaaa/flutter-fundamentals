@@ -83,6 +83,12 @@ class MyApp extends StatelessWidget {
     "rafi"
   ];
 
+  Map user = {
+    'name': "rRyu",
+    "age": 12,
+    "hei": 190
+  };
+
   void printNumber() {
     for (int i = 0; i < numbers.length; i++) {
       print(numbers[i]);
@@ -99,6 +105,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     printNumber();
     printNames();
+    print(user['age']);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
