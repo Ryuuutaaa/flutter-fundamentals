@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           child: Container(
             height: 300,
             width: 300,
-            color: Colors.blueAccent,
+            decoration: BoxDecoration(color: Colors.blueAccent, borderRadius: BorderRadius.circular(23)),
             padding: EdgeInsets.all(23),
             child: Text("hai you"),
           ),
