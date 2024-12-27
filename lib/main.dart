@@ -55,28 +55,37 @@ class MyApp extends StatelessWidget {
 
   */
 
-// function
-  void greet() {
-    print("hello world");
-  }
+// // function
+//   void greet() {
+//     print("hello world");
+//   }
 
-// function wiht paramether
-  void greetW(String name) {
-    print(name);
-  }
+// // function wiht paramether
+//   void greetW(String name) {
+//     print(name);
+//   }
 
-// function retrun value
+// // function retrun value (option 1)
+//   void add(int a, int b) {
+//     int sum = a + b;
+//     print(sum);
+//   }
 
-  void add(int a, int b) {
-    int sum = a + b;
-    print(sum);
+  List numbers = [
+    1,
+    2,
+    3
+  ];
+
+  void printNumber() {
+    for (int i = 0; i < numbers.length; i++) {
+      print(numbers[i]);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    add(1, 1);
-    greetW("rafi");
-    greet();
+    printNumber();
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
