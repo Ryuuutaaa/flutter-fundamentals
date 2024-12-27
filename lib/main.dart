@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.deepPurple[100],
-        body: Container(
-          height: 300,
-          width: 300,
-          color: Colors.blueAccent,
+        body: Center(
+          child: Container(
+            height: 300,
+            width: 300,
+            color: Colors.blueAccent,
+          ),
         ),
       ),
     );
