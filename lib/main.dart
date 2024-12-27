@@ -28,18 +28,8 @@ class MyApp extends StatelessWidget {
             IconButton(onPressed: () {}, icon: Icon(Icons.logout))
           ],
         ),
-        body: Center(
-          child: Container(
-            height: 300,
-            width: 300,
-            decoration: BoxDecoration(color: Colors.blueAccent, borderRadius: BorderRadius.circular(23)),
-            padding: EdgeInsets.all(23),
-            child: Icon(
-              Icons.favorite,
-              color: Colors.white,
-              size: 90,
-            ),
-          ),
+        body: Column(
+          children: [],
         ),
       ),
     );
