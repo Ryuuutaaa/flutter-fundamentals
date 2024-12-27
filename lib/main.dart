@@ -77,15 +77,28 @@ class MyApp extends StatelessWidget {
     3
   ];
 
+  List names = [
+    "ryuta",
+    "usnida",
+    "rafi"
+  ];
+
   void printNumber() {
     for (int i = 0; i < numbers.length; i++) {
       print(numbers[i]);
     }
   }
 
+  void printNames() {
+    for (int i = 0; i < names.length; i++) {
+      print(names[i]);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     printNumber();
+    printNames();
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
