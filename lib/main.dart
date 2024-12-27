@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
           ),
           backgroundColor: Colors.deepPurple,
           elevation: 0,
+          leading: Icon(Icons.menu),
         ),
         body: Center(
           child: Container(
