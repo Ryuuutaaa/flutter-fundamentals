@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
             height: 300,
             width: 300,
             color: Colors.blueAccent,
+            child: Text("hai you"),
           ),
         ),
       ),
