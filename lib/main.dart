@@ -19,9 +19,10 @@ class MyApp extends StatelessWidget {
             width: 300,
             decoration: BoxDecoration(color: Colors.blueAccent, borderRadius: BorderRadius.circular(23)),
             padding: EdgeInsets.all(23),
-            child: Text(
-              "hai you",
-              style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),
+            child: Icon(
+              Icons.favorite,
+              color: Colors.white,
+              size: 90,
             ),
           ),
         ),
