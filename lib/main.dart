@@ -33,16 +33,24 @@ class MyApp extends StatelessWidget {
                 ))
           ],
         ),
-        body: Center(
-          child: Container(
-              width: 300,
-              height: 300,
-              decoration: BoxDecoration(color: Colors.deepPurple, borderRadius: BorderRadius.circular(20)),
-              padding: EdgeInsets.all(20),
-              child: Icon(
-                Icons.favorite,
-                color: Colors.white,
-              )),
+        body: Column(
+          children: [
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.deepPurple,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.blue,
+            ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.greenAccent,
+            )
+          ],
         ),
       ),
     );
