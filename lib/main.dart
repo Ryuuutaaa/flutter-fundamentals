@@ -15,24 +15,21 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         body: Column(
           children: [
-            Expanded(
-              child: Container(
-                color: Colors.deepPurple,
-              ),
+            // set
+            Container(
+              height: 350,
+              color: Colors.deepPurple,
             ),
 
             // sec box
-            Expanded(
-              child: Container(
-                color: Colors.blue,
-              ),
+            Container(
+              height: 350,
+              color: Colors.deepPurple,
             ),
-
             // sec box
-            Expanded(
-              child: Container(
-                color: Colors.greenAccent,
-              ),
+            Container(
+              height: 350,
+              color: Colors.deepPurple,
             )
           ],
         ),
