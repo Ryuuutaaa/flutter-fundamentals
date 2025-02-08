@@ -12,28 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.deepPurple[200],
-        appBar: AppBar(
-          title: Text(
-            "Fllutter",
-            style: TextStyle(color: Colors.white),
-          ),
-          backgroundColor: Colors.deepPurple,
-          elevation: 0,
-          leading: Icon(
-            Icons.menu,
-            color: Colors.white,
-          ),
-          actions: [
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.logout,
-                  color: Colors.white,
-                ))
-          ],
-        ),
+        backgroundColor: Colors.white,
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               width: 200,
