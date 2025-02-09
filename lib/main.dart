@@ -21,7 +21,9 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         body: GridView.builder(
           itemCount: 64,
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 8),
+
+          // how many row
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
           itemBuilder: (context, index) => Container(
             color: Colors.deepPurple,
             margin: EdgeInsets.all(2),
