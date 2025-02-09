@@ -12,28 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white,
-        body: ListView(
-          children: [
-            // set
-            Container(
-              height: 350,
-              color: Colors.deepPurple,
+          backgroundColor: Colors.white,
+          body: ListView.builder(
+            itemCount: 10,
+            itemBuilder: (context, index) => ListTile(
+              title: Text(index.toString()),
             ),
-
-            // sec box
-            Container(
-              height: 350,
-              color: Colors.deepPurple,
-            ),
-            // sec box
-            Container(
-              height: 350,
-              color: Colors.deepPurple,
-            )
-          ],
-        ),
-      ),
+          )),
     );
   }
 }
