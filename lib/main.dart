@@ -5,7 +5,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+
+  List names = [
+    "rafi",
+    "ryuta",
+    "ryuna"
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -14,9 +20,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           backgroundColor: Colors.white,
           body: ListView.builder(
-            itemCount: 10,
+            itemCount: names.length,
             itemBuilder: (context, index) => ListTile(
-              title: Text(index.toString()),
+              title: Text(names[index]),
             ),
           )),
     );
